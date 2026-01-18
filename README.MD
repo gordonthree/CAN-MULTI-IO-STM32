@@ -7,7 +7,9 @@ Compact controller board intended to interface with various analog and digital s
 * STM32L433 Microcontroller
 * 3-pin terminal block for CANBUS connection with drain
 * Jumper selected CAN terminator resistor
-* Pin-header connections for IO modules
+* Two ADIO headers with six total input/output pins
+* I2C bus header with selectable pull-up resistor
+* One-Wire bus header
 * LED indicator for 3.3v power
 * LED indicator for status, controlled by the micro
 * Bidirectional transient voltage protection diode for harsh environments
