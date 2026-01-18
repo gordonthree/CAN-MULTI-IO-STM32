@@ -8,11 +8,10 @@ Compact controller board intended to interface with various analog and digital s
 * 3-pin terminal block for CANBUS connection with drain
 * Jumper selected CAN terminator resistor
 * Two ADIO headers with six total input/output pins
-* I2C bus header with selectable pull-up resistor
-* One-Wire bus header
+* I2C bus header with selectable pull-up resistor (I2C2)
+* One-Wire bus header (USART3)
 * LED indicator for 3.3v power
 * LED indicator for status, controlled by the micro
 * Bidirectional transient voltage protection diode for harsh environments
-* Debugging header for UART1 serial port as well as SWLINK programming 
-
+* Headers for USART1 serial port and the SWLINK programming connector
   
