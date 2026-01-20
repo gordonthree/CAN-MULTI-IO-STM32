@@ -5,6 +5,8 @@ Compact controller board intended to interface with various analog and digital s
 
 # Multi-IO Node
 * STM32L433 Microcontroller
+* Automotive grade switch-mode power supply for 5v rail
+* Automotive grade low-dropout linear supply for 3.3v rail
 * 3-pin terminal block for CANBUS connection with drain
 * Jumper selected CAN terminator resistor
 * Two ADIO headers with six total input/output pins
