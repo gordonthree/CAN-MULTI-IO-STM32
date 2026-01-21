@@ -1,7 +1,7 @@
 # Analog / Digital Multi-IO Controller STM32
 Compact module intended to interface with various analog and digital sensor modules, as well as provide generic digital outputs. An isolated CAN interface provides expansion capability with other modules, displays and sensors.
 
-<img src="https://github.com/gordonthree/CAN-MULTI-IO-STM32/blob/main/CAN-MULTI-IO-STM32.png?raw=true" width=480 alt="3d rendering of circuit board">
+<img src="https://github.com/gordonthree/CAN-MULTI-IO-STM32/blob/main/CAN-MULTI-IO-STM32-3D.png?raw=true" width=480 alt="3d rendering of circuit board">
 
 # Multi-IO Node
 * STM32L433 Microcontroller
