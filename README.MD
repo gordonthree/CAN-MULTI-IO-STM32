@@ -16,4 +16,5 @@ Compact module intended to interface with various analog and digital sensor modu
 * LED indicator for 3.3v power
 * LED indicator for status, controlled by the micro
 * Power input transient voltage protection diode for harsh environments
+* Voltage divider to monitor input voltage
 * Headers for USART1 serial port and the SWLINK programming connector
