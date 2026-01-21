@@ -12452,7 +12452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51017c57-5b9d-488f-9791-8fa6fb7e4348")
-		(property "Reference" "GPIO1"
+		(property "Reference" "DIGITAL_IO1"
 			(at 260.35 119.38 0)
 			(effects
 				(font
@@ -12517,7 +12517,7 @@
 		(instances
 			(project "CAN-MULTI-IO-STM32"
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "GPIO1")
+					(reference "DIGITAL_IO1")
 					(unit 1)
 				)
 			)
@@ -16547,7 +16547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de48ebd1-cec5-4a49-b2a8-ab1290cb8bb4")
-		(property "Reference" "ANA_IN1"
+		(property "Reference" "ANALOG_IN1"
 			(at 257.81 86.3599 0)
 			(effects
 				(font
@@ -16614,7 +16614,7 @@
 		(instances
 			(project ""
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "ANA_IN1")
+					(reference "ANALOG_IN1")
 					(unit 1)
 				)
 			)
