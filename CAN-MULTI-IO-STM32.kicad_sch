@@ -12213,7 +12213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51017c57-5b9d-488f-9791-8fa6fb7e4348")
-		(property "Reference" "GPIO_CON1"
+		(property "Reference" "GPIO1"
 			(at 260.35 119.38 0)
 			(effects
 				(font
@@ -12221,12 +12221,13 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "1725698"
 			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
@@ -12238,7 +12239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/507/9/phoenix_contact_1725698_en.pdf"
 			(at 260.35 133.35 0)
 			(effects
 				(font
@@ -12247,7 +12248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Phoenix Contact 1725698"
 			(at 260.35 133.35 0)
 			(effects
 				(font
@@ -12277,7 +12278,7 @@
 		(instances
 			(project "CAN-MULTI-IO-STM32"
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "GPIO_CON1")
+					(reference "GPIO1")
 					(unit 1)
 				)
 			)
@@ -16227,13 +16228,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "1725698"
 			(at 257.81 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
@@ -16245,7 +16247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/507/9/phoenix_contact_1725698_en.pdf"
 			(at 260.35 86.36 0)
 			(effects
 				(font
@@ -16254,7 +16256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Phoenix Contact 1725698"
 			(at 260.35 86.36 0)
 			(effects
 				(font
