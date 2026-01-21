@@ -5,10 +5,10 @@
 	(uuid "807782eb-8307-4922-8e5a-50da44718f8e")
 	(paper "USLegal")
 	(title_block
-		(title "CAN-STM32L433")
-		(date "2026-01-13")
+		(title "CAN-MULTI-IO-STM32")
+		(date "2026-01-21")
 		(company "Gordon McLellan")
-		(comment 1 "CAN Bus Multi-IO Board STM32")
+		(comment 1 "CAN Bus Multi-IO Module STM32")
 	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1015IDGS"
@@ -6846,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 163.83 96.52)
+			(xy 157.48 96.52) (xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9126,7 +9126,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 163.83 93.98)
+			(xy 157.48 93.98) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9245,7 +9245,7 @@
 		(uuid "14f5df00-6593-4d29-880a-d0c4c129b3d4")
 	)
 	(label "SWCLK"
-		(at 163.83 96.52 0)
+		(at 161.29 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,7 +9705,7 @@
 		(uuid "e575a485-0ec5-4413-884b-72e883219cfe")
 	)
 	(label "SWDIO"
-		(at 163.83 93.98 0)
+		(at 161.29 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12229,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-6_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
 			(at 260.35 133.35 0)
 			(effects
 				(font
@@ -12935,7 +12935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x05_P2.54mm_Locking"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 312.42 82.55 0)
 			(effects
 				(font
@@ -14297,7 +14297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x04_P2.54mm_Locking"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 314.96 153.67 0)
 			(effects
 				(font
@@ -16237,7 +16237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-6_1x06_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
 			(at 260.35 86.36 0)
 			(effects
 				(font
