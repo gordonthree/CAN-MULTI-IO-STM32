@@ -9,8 +9,9 @@ Compact controller board intended to interface with various analog and digital s
 * Automotive grade low-dropout linear supply for 3.3v rail
 * 3-pin terminal block for CANBUS connection with drain
 * Jumper selected CAN terminator resistor
-* Two ADIO headers with six total input/output pins
-* I2C bus header with selectable pull-up resistor (I2C2)
+* Analog header with four 16-bit ADC inputs
+* GPIO header with four digital input/outputs
+* Dedicated external I2C bus with interface buffer
 * One-Wire bus header (USART3)
 * LED indicator for 3.3v power
 * LED indicator for status, controlled by the micro
