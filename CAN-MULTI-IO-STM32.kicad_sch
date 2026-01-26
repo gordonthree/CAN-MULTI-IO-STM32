@@ -7793,6 +7793,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 95.25) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744a2479-b0e0-458f-b202-53b7e3590cef")
+	)
+	(wire
+		(pts
 			(xy 265.43 20.32) (xy 278.13 20.32)
 		)
 		(stroke
@@ -7910,6 +7920,16 @@
 			(type default)
 		)
 		(uuid "7f82808b-f3ce-4cec-b45b-0053504c8998")
+	)
+	(wire
+		(pts
+			(xy 168.91 64.77) (xy 172.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80588624-984d-4bf4-9ee5-fad5d779ee15")
 	)
 	(wire
 		(pts
@@ -8270,6 +8290,16 @@
 			(type default)
 		)
 		(uuid "9eae6634-db97-4c99-bd9e-a8ae757d62d6")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed93d95-2c82-4b4d-a7ab-4eb40cda5d70")
 	)
 	(wire
 		(pts
@@ -8863,6 +8893,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 113.03) (xy 113.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c09423-fa9e-40cd-8a34-5edfbe45f28c")
+	)
+	(wire
+		(pts
 			(xy 265.43 125.73) (xy 269.24 125.73)
 		)
 		(stroke
@@ -9263,6 +9303,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8edf922-221d-4957-bd0a-14ceaa0da12f")
+	)
+	(wire
+		(pts
 			(xy 82.55 46.99) (xy 82.55 45.72)
 		)
 		(stroke
@@ -9372,12 +9422,12 @@
 		(uuid "170a1ad9-603d-4b01-b25b-881ea495cf5f")
 	)
 	(label "ONEW"
-		(at 85.09 97.79 180)
+		(at 172.72 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1a7da0b6-fdb7-48f0-91d5-898cf8894e24")
 	)
@@ -9451,6 +9501,16 @@
 		)
 		(uuid "283aa371-a4d0-4128-9b18-7c3cf8d3b3fd")
 	)
+	(label "STAT2"
+		(at 110.49 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3533ed67-5fd2-4091-a376-368e4cd6f2d1")
+	)
 	(label "USART3_RX"
 		(at 172.72 135.89 0)
 		(effects
@@ -9482,7 +9542,7 @@
 		(uuid "42b82eaf-b87b-472f-a628-ae1c9cba2a0e")
 	)
 	(label "VDIV"
-		(at 219.71 86.36 0)
+		(at 172.72 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9512,7 +9572,7 @@
 		(uuid "44a94560-132a-471a-a208-ef5d87d07e42")
 	)
 	(label "TCA_RDY"
-		(at 85.09 113.03 180)
+		(at 110.49 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9541,6 +9601,16 @@
 		)
 		(uuid "55a4a7a6-d7ee-48ee-beb9-dd2ce8beadc1")
 	)
+	(label "STAT1"
+		(at 110.49 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57dabcb5-4eac-4401-befa-cdd36835ccfa")
+	)
 	(label "VRTC"
 		(at 138.43 55.88 180)
 		(effects
@@ -9560,16 +9630,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ce4748c-dbad-4004-9a63-42769d63ac6f")
-	)
-	(label "STATUS"
-		(at 219.71 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e4d1256-be1b-43ba-8819-e042972b6df3")
 	)
 	(label "I2C1_SCL"
 		(at 298.45 86.36 0)
@@ -9712,12 +9772,12 @@
 		(uuid "9c76b9af-2ce9-468b-970a-d6ace0775913")
 	)
 	(label "TCA_EN"
-		(at 85.09 115.57 180)
+		(at 172.72 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a1215971-8b5f-47ae-bb08-b2948c878fe2")
 	)
@@ -10313,7 +10373,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal"
 			(at 313.69 118.11 0)
 			(effects
 				(font
