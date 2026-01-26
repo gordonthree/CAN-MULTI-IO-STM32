@@ -4,17 +4,16 @@ Compact module intended to interface with various analog and digital sensor modu
 <img src="https://github.com/gordonthree/CAN-MULTI-IO-STM32/blob/main/CAN-MULTI-IO-STM32-3D.png?raw=true" width=480 alt="3d rendering of circuit board">
 
 # Multi-IO Node
-* STM32L433 Microcontroller
+* STM32G0B1RCT Microcontroller; 64mhz clock, 256k flash, 144k ram
 * Automotive grade switch-mode power supply for 5v rail
 * Automotive grade low-dropout linear supply for 3.3v rail
-* 3-pin terminal block for CANBUS connection with drain
+* 3-pin terminal block for CAN bus connection with drain
 * Jumper selected CAN terminator resistor
 * Analog header with four 16-bit ADC inputs
 * GPIO header with four digital input/outputs
 * Dedicated external I2C bus with interface buffer (hot swap capable)
-* One-Wire bus header (USART3)
-* LED indicator for 3.3v power
-* LED indicator for status, controlled by the micro
+* One-Wire bus header (USART1-TX)
+* Two LED indicators for status, controlled by the micro
 * Power input transient voltage protection diode for harsh environments
 * Voltage divider to monitor input voltage
-* Headers for USART1 serial port and the SWLINK programming connector
+* Headers for USART3 serial port and the SWLINK programming connector
